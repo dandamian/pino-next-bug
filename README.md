@@ -11,6 +11,7 @@ Error: Cannot find module '[...]/.next/server/chunks/lib/worker.js'
 To build all apps and packages, run the following command:
 
 ```
+pnpm install
 pnpm build
 ```
 
@@ -19,5 +20,6 @@ pnpm build
 To develop all apps and packages, run the following command:
 
 ```
+pnpm install
 pnpm dev
 ```
