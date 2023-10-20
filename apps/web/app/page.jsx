@@ -1,12 +1,6 @@
-import { default as pino } from "pino";
-
-const transport = pino.transport({
-  target: "pino/file",
-  options: { destination: "/dev/null" },
-});
-
-pino(transport);
+import { log } from "ui";
 
 export default function Page() {
+  log.info("it works");
   return <main>Test</main>;
 }
